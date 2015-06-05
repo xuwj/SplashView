@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="color_array">
+        <item>@color/fadedBlueColor</item>
+        <item>@color/grapefruitColor</item>
+        <item>@color/huang_efc73e</item>
+        <item>@color/lv_4ea324</item>
+        <item>@color/pinkLipstickColor</item>
+        <item>@color/seafoamColor</item>
+    </integer-array>
+
+    <declare-styleable name="SplashView">
+        <attr name="svRotationRadius" format="dimension" />
+        <attr name="svCircleRadius" format="dimension" />
+        <attr name="svExpandingBackgroundColor" format="color" />
+        <attr name="svExpandingTime" format="integer" />
+        <attr name="svMergingTime" format="integer" />
+        <attr name="svRotationDuration" format="integer" />
+    </declare-styleable>
+</resources>
